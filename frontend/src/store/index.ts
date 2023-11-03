@@ -1,16 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { setupListeners } from '@reduxjs/toolkit/query';
-import pricesSlice from './pricesSlice';
 import thunkMiddleware from 'redux-thunk';
-import stocksSlice from '@/store/stocksSlice';
-import priceHistorySlice from '@/store/priceHistorySlice';
+
 
 export const store = configureStore({
   reducer: {
     // Add the generated reducer as a specific top-level slice
-    [pricesSlice.name]: pricesSlice.reducer,
-    [stocksSlice.name]: stocksSlice.reducer,
-    [priceHistorySlice.name]: priceHistorySlice.reducer
+
   },
   // Adding the api middleware enables caching, invalidation, polling,
   // and other useful features of `rtk-query`.
