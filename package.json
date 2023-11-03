@@ -1,5 +1,6 @@
 {
   "name": "test-skeleton-app",
+  "test": true,
   "private": true,
   "workspaces": [
     "backend",
