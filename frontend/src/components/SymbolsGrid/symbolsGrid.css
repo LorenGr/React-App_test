@@ -1,5 +1,0 @@
-.symbolsGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
-    gap: 36px;
-}

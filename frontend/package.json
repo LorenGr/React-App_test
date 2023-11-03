@@ -13,10 +13,8 @@
     "@reduxjs/toolkit": "^1.9.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-dynamic-virtual-scroll": "^1.4.0",
     "react-redux": "^8.0.5",
     "react-router-dom": "^6.10.0",
-    "recharts": "^2.5.0",
     "remove": "^0.1.5",
     "vite-plugin-svgr": "^2.4.0"
   },

@@ -1,13 +1,11 @@
 import './App.css';
-import Navbar from '@/components/Navbar';
 import Router from '@/router';
 
 function App() {
   return (
     <div className="App">
       <div className="App__header">
-        <h2 className="App__title">Stocks Dashboard</h2>
-        <Navbar />
+        <h2 className="App__title">Test</h2>
       </div>
       <Router />
     </div>
