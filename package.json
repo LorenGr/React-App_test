@@ -1,5 +1,5 @@
 {
-  "name": "stocksdashboard",
+  "name": "test-skeleton-app",
   "private": true,
   "workspaces": [
     "backend",
